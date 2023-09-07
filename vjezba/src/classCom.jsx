@@ -5,6 +5,7 @@ class classCom extends Component {
         return (
             <div>
                 Komponenta definirana klasom.
+                <functionCom />
             </div>
         );
     }
