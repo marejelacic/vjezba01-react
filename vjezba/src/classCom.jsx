@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import functionCom from './functionCom';
-class classCom extends Component {
+import FunctionCom from './FunctionCom';
+class ClassCom extends Component {
     render() {
         return (
             <div>
                 Komponenta definirana klasom.
-                <functionCom />
+                <FunctionCom />
             </div>
         );
     }
 }
 
-export default classCom;
+export default ClassCom;
